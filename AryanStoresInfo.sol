@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 contract SimpleStorage{
@@ -5,6 +6,7 @@ contract SimpleStorage{
     //This will be initialised to 0 by default
     uint256  favoriteNumber;
 
+    //Creating objects using "struct" that can keep many data types
     struct People{
         uint256 favoriteNumber;
         string name;
